@@ -1,10 +1,18 @@
-# Compiled files
-*.tfstate
-*.tfstate.*
-*.tfstate.backup
-*.tfvars
-*.json
+# Compiled files AWS
+aws-env/*.tfstate
+aws-env/*.tfstate.*
+aws-env/*.tfstate.backup
+aws-env/*.tfvars
+aws-env/*.json
+aws-env/.terraform/
 
-# Module directory
-.terraform/
-account.json
+# Compiled files AWS
+gcp-env/*.tfstate
+gcp-env/*.tfstate.*
+gcp-env/*.tfstate.backup
+gcp-env/*.tfvars
+gcp-env/*.json
+gcp-env/.terraform/
+gcp-env/account.json
+
+

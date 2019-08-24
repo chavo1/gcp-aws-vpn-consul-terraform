@@ -14,8 +14,8 @@ variable "remote_cidr" {
   default     = "172.31.16.0/22"
 }
 variable "fw_source_range" {
-  default = "172.31.32.0/22"
+  default = "172.31.16.0/22"
 }
 variable "subnet_range" {
-  default = "172.31.48.0/22"
+  default = "172.31.32.0/22"
 }
