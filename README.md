@@ -56,6 +56,8 @@ terraform apply
   - | We will use [Terraform Local Backend](https://www.terraform.io/docs/backends/types/local.html#example-reference) - We will just reference the needed addresses for the VPN Tunnel
 
 ## GCP Deployment deployment.
+```
 cd ../gcp-env
 terraform init
 terraform apply
+```
