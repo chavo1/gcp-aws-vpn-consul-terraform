@@ -1,5 +1,5 @@
 module "vpc_virginia" {
-  source = "../gcp-vpc"
+  source = "git@github.com:chavo1/gcp-vpc"
 
   region                  = var.region
   region_zone             = var.region_zone
