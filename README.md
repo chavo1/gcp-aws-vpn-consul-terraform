@@ -1,4 +1,4 @@
-# This repo contains a simple example of Consul cluster in Multi-DC - Multi-Cloud Deployment with AWS client VPN (with mutual authentication) for secure connection to the both DCs.
+# This repo contains an example of GCP - AWS - Consul cluster deployment.
 
 
 ## AWS VPC
