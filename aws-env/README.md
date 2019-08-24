@@ -1,7 +1,5 @@
 # This repo contains a simple example of Consul cluster in Multi-DC - Multi-Cloud Deployment with AWS client VPN (with mutual authentication) for secure connection to the both DCs.
 
-<img src="screenshot/aws_gcp.jpg" width="754" height="750" />
-
 ## AWS VPC
 
 ### [This module](https://github.com/chavo1/aws-vpc-terraform) will create VPC in AWS region "us-east-1"
