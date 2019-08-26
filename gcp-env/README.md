@@ -51,11 +51,11 @@ bundle exec kitchen destroy
      ✔  stdout should include "module.consul_servers.google_compute_instance.server[0]"
      ✔  stderr should include ""
      ✔  exit_status should eq 0
-  HTTP GET on http://35.230.164.70:8500/ui/aws_virginia/services
+  HTTP GET on http://35.230.164.70:8500/ui/gcp_virginia/services
      ✔  status should cmp == 200
-  HTTP GET on http://35.230.164.70:8500/ui/aws_virginia/nodes
+  HTTP GET on http://35.230.164.70:8500/ui/gcp_virginia/nodes
      ✔  status should cmp == 200
-  HTTP GET on http://35.230.164.70:8500/ui/aws_virginia/services/web
+  HTTP GET on http://35.230.164.70:8500/ui/gcp_virginia/services/web
      ✔  status should cmp == 200
 
 Test Summary: 6 successful, 0 failures, 0 skipped
