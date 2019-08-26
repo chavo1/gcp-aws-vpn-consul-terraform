@@ -1,0 +1,21 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+  systems:
+    - name: basic
+      backend: local
+      attrs_outputs:
+        gcp_servers_private: private_ip
+        gcp_servers_public: public_ip
+
+platforms:
+  - name: terraform
+
+suites:
+  - name: default
