@@ -1,6 +1,6 @@
 # This repo contains an example of GCP - AWS - Consul cluster deployment.
 
-<img src="screenshot/screenshot.png" width="790" height="700" />
+<img src="screenshot/screenshot.png" width="800" height="700" />
 
 ## AWS VPC
 ### [This module](https://github.com/chavo1/aws-vpc-terraform) will create VPC in AWS region "us-east-1"
@@ -42,7 +42,7 @@ terraform apply
 ### To test you will need Kitchen:
 
 - Kitchen provides a test harness to execute infrastructure code on one or more platforms in isolation.
-- Install [kitchen.ci]https://kitchen.ci/
+- Install [kitchen.ci](https://kitchen.ci/)
 
 Than simply execute a following commands:
 ```
