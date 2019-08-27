@@ -1,7 +1,3 @@
-variable "vpn_ip_address" {
-  description = "GCP External IP address - Reserved static address"
-}
-
 variable "vpn_bgp_asn" {
   description = "BPG Autonomous System Number (ASN) of the customer gateway for a dynamically routed VPN connection."
   default     = "65000"

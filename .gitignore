@@ -1,18 +1,9 @@
-# Compiled files AWS
-aws-env/*.tfstate
-aws-env/*.tfstate.*
-aws-env/*.tfstate.backup
-aws-env/*.tfvars
-aws-env/*.json
-aws-env/.terraform/
-
-# Compiled files AWS
-gcp-env/*.tfstate
-gcp-env/*.tfstate.*
-gcp-env/*.tfstate.backup
-gcp-env/*.tfvars
-gcp-env/*.json
-gcp-env/.terraform/
-gcp-env/account.json
-
-
+terraform.tfvars
+.terraform/
+terraform*
+.kitchen
+*.ovpn
+test.sh
+Gemfile.lock
+scr/
+account.json

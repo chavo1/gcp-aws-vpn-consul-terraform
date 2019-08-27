@@ -1,5 +1,5 @@
-variable "server_count" {}
-variable "dc_net" {
+variable "server_count_gcp" {}
+variable "dc_net_gcp" {
   default = 32
 }
 variable "public_key_path" {

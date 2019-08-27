@@ -39,5 +39,3 @@ variable "ingressCIDRblock" {
 variable "mapPublicIP" {
   default = true
 }
-
-# end of variables.tf
