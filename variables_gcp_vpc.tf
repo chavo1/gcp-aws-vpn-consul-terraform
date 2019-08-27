@@ -1,4 +1,4 @@
-variable "region" {
+variable "region_gcp" {
   default = "us-east4"
 }
 variable "region_zone" {

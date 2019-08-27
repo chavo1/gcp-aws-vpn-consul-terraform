@@ -1,8 +1,0 @@
-terraform.tfvars
-.terraform/
-terraform*
-.kitchen
-*.ovpn
-test.sh
-Gemfile.lock
-scr/

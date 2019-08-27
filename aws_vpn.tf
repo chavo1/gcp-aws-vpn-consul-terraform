@@ -8,5 +8,5 @@ module "vpn_virginia" {
   preshared_key  = var.preshared_key
   gcp_cidr       = var.gcp_cidr
   name           = var.name_vpn
-  vpn_ip_address = var.vpn_ip_address
+  vpn_ip_address = google_compute_address.vpn-gw-ip.address
 }

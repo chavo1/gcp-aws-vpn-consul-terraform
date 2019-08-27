@@ -1,7 +1,7 @@
-module "vpc_virginia" {
+module "gcp_vpc_virginia" {
   source = "git@github.com:chavo1/gcp-vpc"
 
-  region                  = var.region
+  region                  = var.region_gcp
   region_zone             = var.region_zone
   project_name            = var.project_name
   credentials_file_path   = var.credentials_file_path

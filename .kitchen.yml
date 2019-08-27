@@ -11,6 +11,8 @@ verifier:
     - name: basic
       backend: local
       attrs_outputs:
+        servers_virginia_private: private_ip_dc1
+        servers_virginia_public: public_dns_servers_virginia
         gcp_servers_private: private_ip
         gcp_servers_public: public_ip
 
