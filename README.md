@@ -39,10 +39,22 @@ terraform apply
 - After the deployment Terraform will generate a file into the root directory "config-cvpn.ovpn". So you can use it to connect to the environment in both DCs with [AWS Client VPN](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html). 
 - VPN client depend on your choice, in my case I use [tunnelblick](https://tunnelblick.net/).
 
-### To test you will need Kitchen:
+### To test you will need Kitchen and Selenium:
 
 - Kitchen provides a test harness to execute infrastructure code on one or more platforms in isolation.
 - Install [kitchen.ci](https://kitchen.ci/)
+- Install [selenium](https://www.ranorex.com/resources/testing-wiki/selenium-testing/) and all its dependencies on Mac with [brew](https://brew.sh)
+
+```
+$ brew install selenium-server-standalone
+$ brew cask install java
+
+# GeckoDriver for firefox
+$ brew install geckodriver 
+
+# Chromedriver for chrome
+$ brew cask install chromedriver 
+```
 
 Than simply execute a following commands:
 ```
