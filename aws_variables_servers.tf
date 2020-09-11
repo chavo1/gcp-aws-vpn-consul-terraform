@@ -2,13 +2,13 @@ variable "access_key" {}
 variable "secret_key" {}
 
 variable "server_count" {
-  type = "map"
+  type = map(string)
 
   default = {}
 }
 
 variable "dcname" {
-  type = "map"
+  type = map(string)
 
   default = {}
 }
@@ -18,13 +18,13 @@ variable "instance_type" {
 }
 
 variable "ami_ohio" {
-  type = "map"
+  type = map(string)
 
   default = {}
 }
 
 variable "ami_virginia" {
-  type = "map"
+  type = map(string)
 
   default = {}
 }
@@ -34,7 +34,7 @@ variable "consul_version" {}
 variable "key_name" {}
 
 variable "dc_net" {
-  type = "map"
+  type = map(string)
 
   default = {
     dc1 = "16"
@@ -43,7 +43,7 @@ variable "dc_net" {
 }
 
 variable "region" {
-  type = "map"
+  type = map(string)
 
   default = {
     virginia = "us-east-1"

@@ -7,3 +7,6 @@ test.sh
 Gemfile.lock
 scr/
 account.json
+google_credentials.json
+.ruby-version
+scr

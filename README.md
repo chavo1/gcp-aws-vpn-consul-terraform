@@ -18,7 +18,7 @@
 ### [This module](https://github.com/chavo1/gcp-consul) will create a needed number of Consul server in GCP
 ## Prerequisites
 
-- [Terraform](https://www.terraform.io/downloads.html)
+- [Terraform](https://www.terraform.io/downloads.html) `"~> 0.13.0"`
 - [AWS Account](https://aws.amazon.com/account/)
 - Basic [Consul](https://www.consul.io/) knowledge
 - [GCP Account](https://aws.amazon.com/account/)
