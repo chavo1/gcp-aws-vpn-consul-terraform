@@ -10,3 +10,4 @@ account.json
 google_credentials.json
 .ruby-version
 scr
+.terraform.lock.hcl
