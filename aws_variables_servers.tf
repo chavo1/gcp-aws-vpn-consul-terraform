@@ -1,6 +1,3 @@
-variable "access_key" {}
-variable "secret_key" {}
-
 variable "server_count" {
   type = map(string)
 
@@ -39,15 +36,6 @@ variable "dc_net" {
   default = {
     dc1 = "16"
     dc2 = "32"
-  }
-}
-
-variable "region" {
-  type = map(string)
-
-  default = {
-    virginia = "us-east-1"
-    ohio     = "us-east-2"
   }
 }
 
