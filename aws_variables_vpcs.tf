@@ -1,4 +1,12 @@
 # variables.tf
+variable "region" {
+  type = map(string)
+
+  default = {
+    virginia = "us-east-1"
+    ohio     = "us-east-2"
+  }
+}
 
 variable "vpc_name" {
   type = list(string)

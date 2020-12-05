@@ -2,9 +2,6 @@ module "consul_virginia" {
   source = "git@github.com:chavo1/aws-consul-terraform-multi-region"
 
   consul_version        = var.ami_virginia[var.consul_version]
-  access_key            = var.access_key
-  secret_key            = var.secret_key
-  region                = var.region["virginia"]
   instance_type         = var.instance_type
   key_name              = var.key_name
   subnet                = module.vpc_virginia.subnet[0]

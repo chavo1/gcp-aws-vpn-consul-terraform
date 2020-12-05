@@ -1,6 +1,4 @@
-access_key = "< Your aws access key >"
-secret_key = "< Your aws secret key >"
-key_name   = "id_rsa"
+key_name = "id_rsa"
 
 server_count = {
   virginia = 1
@@ -49,10 +47,10 @@ root_certificate_chain_arn = "< root_certificate_arn from your ACM >"
 client_cidr_block          = "191.168.0.0/22"
 destination_cidr_block     = "172.31.32.0/22"
 
-zone           = "< AWS availability zone >"
-preshared_key  = "< a VPN tunels preshared_key >"
-gcp_cidr       = "172.31.32.0/22"
-name_vpn       = "< a name of the vpn>"
+zone          = "< AWS availability zone >"
+preshared_key = "< a VPN tunels preshared_key >"
+gcp_cidr      = "172.31.32.0/22"
+name_vpn      = "< a name of the vpn>"
 
 project_name            = "< GCP project name >"
 source_service_accounts = "< service-account >"
