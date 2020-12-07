@@ -14,3 +14,6 @@ module "consul_virginia" {
 output "public_dns_servers_virginia" {
   value = module.consul_virginia.public_dns_servers
 }
+output "public_ip_aws" {
+  value = module.consul_virginia.public_ip
+}
