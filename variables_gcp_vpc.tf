@@ -5,7 +5,6 @@ variable "region_zone" {
   default = "us-east4-a"
 }
 variable "project_name" {}
-variable "credentials_file_path" {}
 variable "source_service_accounts" {
   description = "GCE service account"
 }
