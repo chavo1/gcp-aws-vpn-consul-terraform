@@ -1,13 +1,3 @@
-output "client_vpn_endpoint" {
-  depends_on = [module.vpc_virginia.vpc]
-
-  value = module.cvpn_sofia.client_vpn_endpoint
-}
-
-output "client_vpn_network_association" {
-  value = module.cvpn_sofia.client_vpn_network_association
-}
-
 output "subnet_id_dc1" {
   value = module.consul_virginia.subnet_id
 }
