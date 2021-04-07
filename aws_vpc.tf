@@ -1,7 +1,6 @@
 module "vpc_virginia" {
   source = "git@github.com:chavo1/aws-vpc-terraform"
 
-  region               = var.region["virginia"]
   vpc_name             = var.vpc_name[0]
   subnetCIDRblock      = var.subnetCIDRblock[0]
   ingressCIDRblock     = var.ingressCIDRblock
